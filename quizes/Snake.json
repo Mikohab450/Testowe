@@ -1,0 +1,105 @@
+{
+    "title": "Quiz - Snake",
+    "questions": [
+        {
+            "question": "Co robi funkcja pygame.display.set_mode()?",
+            "options": [
+                "A. Ustawia prędkość gry",
+                "B. Tworzy okno gry",
+                "C. Ładuje obrazki",
+                "D. Obsługuje klawiaturę"
+            ],
+            "answer": "5b950e77941d01cdf246d00b1ece546bc95234b77d98b44c9187e2733afa696a"
+        },
+        {
+            "question": "Do czego służy pygame.time.set_timer()?",
+            "options": [
+                "A. Zatrzymuje grę",
+                "B. Ustawia liczbę FPS",
+                "C. Wywołuje zdarzenie co określony czas",
+                "D. Resetuje zegar gry"
+            ],
+            "answer": "9685eb765661ea3b95f31e1bb3c3b5501d0c2acdf353feeaa4d8fe32f95f77fb"
+        },
+        {
+            "question": "Dlaczego używamy clock.tick(60)?",
+            "options": [
+                "A. Aby zwiększyć wydajność komputera",
+                "B. Aby ograniczyć liczbę klatek na sekundę",
+                "C. Aby przyspieszyć grę",
+                "D. Aby zatrzymać animację"
+            ],
+            "answer": "0cd20d37dbaa799d1d2f6f04adbab0b9e958b083f38e06512cdefadd20863f98"
+        },
+        {
+            "question": "Co oznacza snake.body.insert(0, (...))?",
+            "options": [
+                "A. Usuwa element z listy",
+                "B. Dodaje element na koniec listy",
+                "C. Dodaje element na początek listy",
+                "D. Sortuje listę"
+            ],
+            "answer": "08d1623c441b55a6989fce1086354967eb9f522e4cab47da49e9e1e640afbde6"
+        },
+        {
+            "question": "Dlaczego sprawdzamy if new_dir != self.direction.opposite()?",
+            "options": [
+                "A. Aby przyspieszyć ruch",
+                "B. Aby zapobiec zawracaniu węża",
+                "C. Aby zmienić kierunek losowo",
+                "D. Aby zatrzymać grę"
+            ],
+            "answer": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2"
+        },
+        {
+            "question": "Co robi metoda blit() w Pygame?",
+            "options": [
+                "A. Usuwa obraz z ekranu",
+                "B. Kopiuje obraz na ekran",
+                "C. Obraca obraz",
+                "D. Zmienia rozdzielczość"
+            ],
+            "answer": "9d574e1d3c5ed212edee33e2478e5a62cdecc5b5cb365479c4eb99e9d342aa38"
+        },
+        {
+            "question": "Kiedy wąż rośnie (_grow = True)?",
+            "options": [
+                "A. Przy każdym ruchu",
+                "B. Po zderzeniu ze ścianą",
+                "C. Po zjedzeniu jabłka",
+                "D. Po naciśnięciu klawisza"
+            ],
+            "answer": "f167717fb2ed36e774225dd5b609cd208e028ba12cfc08946de444227e4e80d2"
+        },
+        {
+            "question": "Co sprawdza check_self_collision()?",
+            "options": [
+                "A. Czy wąż dotknął ściany",
+                "B. Czy wąż zjadł jabłko",
+                "C. Czy głowa zderzyła się z ogonem",
+                "D. Czy gra się zakończyła"
+            ],
+            "answer": "f09d8479566a0c7cdb156fa8635e44990b471b4a641167201c79fed549ecd5f0"
+        },
+        {
+            "question": "Dlaczego używamy zmiennej game_over?",
+            "options": [
+                "A. Do liczenia punktów",
+                "B. Do zatrzymania logiki gry po przegranej",
+                "C. Do sterowania ruchem",
+                "D. Do rysowania tła"
+            ],
+            "answer": "3ded92c4648c479ce74d18b838a651e02940569dc5840edd87a7d52216256359"
+        },
+        {
+            "question": "Co przechowuje snake.all_positions?",
+            "options": [
+                "A. Tylko głowę węża",
+                "B. Tylko ogon węża",
+                "C. Wszystkie segmenty oprócz głowy",
+                "D. Głowę i całe ciało węża"
+            ],
+            "answer": "d322de085a24ae58593ea47dd09157f88fb27454bf08582384f5693d97ed06f8"
+        }
+    ]
+}

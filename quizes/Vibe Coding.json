@@ -1,0 +1,105 @@
+{
+    "title": "Quiz - Vibe coding: praca z AI i istniejącym kodem",
+    "questions": [
+        {
+            "question": "Chcesz, żeby AI wygenerowało GUI do istniejącego programu. Co powinno znaleźć się w prompcie?",
+            "options": [
+                "A. Tylko opis wyglądu okna - AI samo znajdzie potrzebne pliki",
+                "B. Nazwy modułów, funkcji do zaimportowania i opis oczekiwanego zachowania",
+                "C. Cały kod źródłowy projektu wklejony bez komentarza",
+                "D. Prośba o napisanie programu od zera z tą samą funkcjonalnością"
+            ],
+            "answer": "5b950e77941d01cdf246d00b1ece546bc95234b77d98b44c9187e2733afa696a"
+        },
+        {
+            "question": "Dlaczego przy vibe codingu budujemy aplikację etapami zamiast prosić AI o cały program naraz?",
+            "options": [
+                "A. Bo AI nie potrafi wygenerować więcej niż 20 linii kodu",
+                "B. Bo łatwiej znaleźć i naprawić błędy, gdy testujemy po każdym kroku",
+                "C. Bo każdy etap wymaga innego modelu AI",
+                "D. Bo Antigravity ma limit jednego promptu na minutę"
+            ],
+            "answer": "abdbc2b5cc2c7a519b72bf7a164c58ebf892ab0c2df6468213705cc2f0da8561"
+        },
+        {
+            "question": "AI wygenerowało kod, który działa, ale nie rozumiesz jednej funkcji. Co robisz?",
+            "options": [
+                "A. Ignoruję - działa, więc nie muszę rozumieć",
+                "B. Usuwam tę funkcję i piszę własną od zera",
+                "C. Pytam AI o wyjaśnienie tego fragmentu, zanim przejdę dalej",
+                "D. Zmieniam nazwy zmiennych na polskie, żeby było jaśniej"
+            ],
+            "answer": "8a214cef6d474c9ad7249b3267218f8f0b7a5ad3a0f3ff09c692251fe9b827ca"
+        },
+        {
+            "question": "W prompcie piszesz: \"dodaj sprawdzanie odpowiedzi\". AI generuje własną logikę hashowania zamiast użyć istniejącej. Dlaczego?",
+            "options": [
+                "A. AI zawsze pisze kod od zera, bo tak jest szybciej",
+                "B. Prompt nie wskazał konkretnej funkcji ani modułu do użycia",
+                "C. AI nie obsługuje importowania z innych plików",
+                "D. Hashowanie jest zbyt trudne do zaimportowania"
+            ],
+            "answer": "239fd09dd1c48679b74cec2120cd5e448b002c728c05e9b10f2c19f298fbdd57"
+        },
+        {
+            "question": "Która wersja promptu lepiej opisuje integrację z istniejącym kodem?",
+            "options": [
+                "A. \"Dodaj sprawdzanie odpowiedzi do quizu\"",
+                "B. \"Zahashuj wybraną literę z solą (numer pytania od 1) przez hashlib.sha256 i porównaj z polem answer\"",
+                "C. \"Zrób tak, żeby quiz działał poprawnie\"",
+                "D. \"Skopiuj logikę z quiz_player.py i wklej do GUI\""
+            ],
+            "answer": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2"
+        },
+        {
+            "question": "AI wygenerowało kod, w którym numeracja pytań zaczyna się od 0 zamiast od 1. Co to oznacza?",
+            "options": [
+                "A. AI użyło nowszej wersji Pythona",
+                "B. Trzeba zawsze sprawdzać, czy AI zachowało konwencje z oryginalnego kodu",
+                "C. Numeracja od 0 jest zawsze poprawna w Pythonie",
+                "D. To błąd AI, który nie ma wpływu na działanie programu"
+            ],
+            "answer": "9d574e1d3c5ed212edee33e2478e5a62cdecc5b5cb365479c4eb99e9d342aa38"
+        },
+        {
+            "question": "Po co w prompcie podajemy AI nazwy konkretnych widgetów (np. CTkButton, CTkRadioButton)?",
+            "options": [
+                "A. Żeby prompt był dłuższy i wyglądał profesjonalnie",
+                "B. Bo AI nie zna biblioteki CustomTkinter",
+                "C. Żeby AI użyło dokładnie tych komponentów, których potrzebujemy, zamiast zgadywać",
+                "D. Bo bez tego AI wygeneruje kod w innym języku programowania"
+            ],
+            "answer": "f167717fb2ed36e774225dd5b609cd208e028ba12cfc08946de444227e4e80d2"
+        },
+        {
+            "question": "Jaki jest prawidłowy cykl pracy z AI przy budowaniu aplikacji?",
+            "options": [
+                "A. Napisz jeden duży prompt → wklej kod → oddaj projekt",
+                "B. Opisz cel → wygeneruj → przeczytaj i zrozum → przetestuj → popraw lub iteruj",
+                "C. Wygeneruj kod → zmień nazwy zmiennych → przetestuj",
+                "D. Skopiuj kod z internetu → poproś AI o poprawki → przetestuj"
+            ],
+            "answer": "0e1ef51633293b35ad3d62b4e963902899ed8420ddd37063f26b64217e66ad75"
+        },
+        {
+            "question": "AI wygenerowało funkcję eksportu, która nadpisuje oryginalne pytania hashami. Jak temu zapobiec?",
+            "options": [
+                "A. Zapisać plik przed uruchomieniem eksportu",
+                "B. W prompcie napisać, żeby AI użyło copy.deepcopy przed hashowaniem",
+                "C. Wyłączyć hashowanie i zapisać odpowiedzi jawnie",
+                "D. Nie da się - hashowanie zawsze zmienia oryginał"
+            ],
+            "answer": "3ded92c4648c479ce74d18b838a651e02940569dc5840edd87a7d52216256359"
+        },
+        {
+            "question": "Dlaczego GUI powinno importować funkcje z istniejących plików zamiast zawierać własną kopię logiki?",
+            "options": [
+                "A. Bo Python nie pozwala na duplikowanie funkcji",
+                "B. Bo importy działają szybciej niż kod pisany ręcznie",
+                "C. Bo zmiana logiki w jednym miejscu automatycznie działa wszędzie, a duplikaty łatwo się rozjeżdżają",
+                "D. Bo AI nie potrafi wygenerować kodu bez importów"
+            ],
+            "answer": "908d72900e2475921b580e971e603ef224f1995cdf47e3022d12ee88ae3e6e8a"
+        }
+    ]
+}

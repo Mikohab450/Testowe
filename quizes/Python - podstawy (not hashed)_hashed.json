@@ -1,0 +1,115 @@
+{
+    "title": "Quiz z Pythona - Podstawy",
+    "questions": [
+        {
+            "question": "Jak jest różnica pomiędzy dzieleniem rzeczywistym i całkowitym?",
+            "options": [
+                "A. Dzielnie rzeczywiste zwraca liczbę całkowitą, a całkowite zmiennoprzecinkową",
+                "B. Dzielnie rzeczywiste zwraca liczbę zmiennoprzecinkową, a całkowite część całkowitą",
+                "C. Nie ma różnicy",
+                "D. Dzielnie całkowite zaokrągla w górę, dzielnie rzeczywiste w dół"
+            ],
+            "answer": "5b950e77941d01cdf246d00b1ece546bc95234b77d98b44c9187e2733afa696a"
+        },
+        {
+            "question": "Co się dzieje przy zamianie float na int?",
+            "options": [
+                "A. Zaokrągla do najbliższej liczby całkowitej",
+                "B. Obcina część dziesiętną i zostaje tylko część całkowita",
+                "C. Tworzy błąd",
+                "D. Zamienia w string"
+            ],
+            "answer": "abdbc2b5cc2c7a519b72bf7a164c58ebf892ab0c2df6468213705cc2f0da8561"
+        },
+        {
+            "question": "Jak przeprowadzić operację modulo?",
+            "options": [
+                "A. a % b zwraca resztę z dzielenia a przez b",
+                "B. a % b zwraca iloraz dzielenia a przez b",
+                "C. a % b zwraca wynik dzielenia w formie float",
+                "D. a % b zwraca największą liczbę całkowitą mniejszą od a"
+            ],
+            "answer": "1398b376fdcce25c5a5399367e76891e85121c010ec919cc243b1a519d95bbc6"
+        },
+        {
+            "question": "Jaki jest numer pierwszego elementu na liście?",
+            "options": [
+                "A. 0",
+                "B. 1",
+                "C. -1",
+                "D. Zależy od listy"
+            ],
+            "answer": "4e808094851fc2eac7a386fc7d64677b34bda5e41d366ec4943233f9e6f2cd63"
+        },
+        {
+            "question": "Jak usunąć element z listy?",
+            "options": [
+                "A. del lista[indeks] lub lista.pop(indeks)",
+                "B. lista.remove_all()",
+                "C. lista.clear_element(indeks)",
+                "D. Nie można usuwać elementów z listy"
+            ],
+            "answer": "ea644b359f0b0abde72ab7dbdc03c7d630537bdd0fd7ca1bbb99d41e7f446eea"
+        },
+        {
+            "question": "Co robi funkcja range()?",
+            "options": [
+                "A. Tworzy listę wszystkich liczb całkowitych",
+                "B. Generuje sekwencję liczb całkowitych w zadanym zakresie",
+                "C. Losuje liczby",
+                "D. Zwraca długość listy"
+            ],
+            "answer": "9d574e1d3c5ed212edee33e2478e5a62cdecc5b5cb365479c4eb99e9d342aa38"
+        },
+        {
+            "question": "Jak działa koniunkcja?",
+            "options": [
+                "A. Zwraca True jeśli chociaż jedno wyrażenie jest True",
+                "B. Zwraca True tylko jeśli oba wyrażenia są True",
+                "C. Zwraca False jeśli oba wyrażenia są False",
+                "D. Zwraca wartość liczbową sumy"
+            ],
+            "answer": "f86ae46d947e2215ce53b1ae840af949b5f686e69ea2f6b7eaf3725619d4303e"
+        },
+        {
+            "question": "Co można sprawdzić słówkiem 'in'?",
+            "options": [
+                "A. Czy element znajduje się w sekwencji (lista, string, itp.)",
+                "B. Czy liczba jest parzysta",
+                "C. Czy zmienna jest typu int",
+                "D. Czy funkcja istnieje"
+            ],
+            "answer": "553a0fddbb387723578263570e63a83955482ae44f45bac9a90c65ddc058329f"
+        },
+        {
+            "question": "Jak zamienić wszystkie znaki w tekście na małe?",
+            "options": [
+                "A. text.upper()",
+                "B. text.lower()",
+                "C. text.capitalize()",
+                "D. text.swapcase()"
+            ],
+            "answer": "3ded92c4648c479ce74d18b838a651e02940569dc5840edd87a7d52216256359"
+        },
+        {
+            "question": "Jak jest różnica między obiektem a klasą?",
+            "options": [
+                "A. Obiekt to definicja, klasa to instancja",
+                "B. Klasa to definicja, obiekt to instancja",
+                "C. Klasa i obiekt to to samo",
+                "D. Obiekt dziedziczy od klasy, ale klasa nie"
+            ],
+            "answer": "54bef1ccfde12b92ac87f0731d2611afac49f51b8e1e1767476eff666dc51a79"
+        },
+        {
+            "question": "Co robi konstruktor (metoda __init__())?",
+            "options": [
+                "A. Tworzy nową klasę",
+                "B. Inicjalizuje nowy obiekt danej klasy",
+                "C. Usuwa obiekt",
+                "D. Zwraca wartość obiektu"
+            ],
+            "answer": "c879dc6e7e8200d38565e3d604591f6a727273b5b566ee119ea7a22e7d1f888a"
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "title": "Quiz z OpenCV i MediaPipe",
+    "questions": [
+        {
+            "question": "Do czego służy cv2.VideoCapture(0)?",
+            "options": [
+                "A. Otwiera plik wideo z dysku",
+                "B. Otwiera domyślną kamerę w komputerze",
+                "C. Inicjalizuje model MediaPipe",
+                "D. Tworzy okno do wyświetlania obrazu"
+            ],
+            "answer": "5b950e77941d01cdf246d00b1ece546bc95234b77d98b44c9187e2733afa696a"
+        },
+        {
+            "question": "Dlaczego przed podaniem obrazu do MediaPipe konwertujemy go z BGR do RGB?",
+            "options": [
+                "A. Bo RGB zajmuje mniej pamięci",
+                "B. Bo MediaPipe wymaga formatu PNG",
+                "C. Bo MediaPipe był trenowany na obrazach RGB",
+                "D. Bo OpenCV nie obsługuje RGB"
+            ],
+            "answer": "9685eb765661ea3b95f31e1bb3c3b5501d0c2acdf353feeaa4d8fe32f95f77fb"
+        },
+        {
+            "question": "Co zwraca cap.read()?",
+            "options": [
+                "A. Jeden piksel z kamery",
+                "B. Wartość logiczną i pojedynczą klatkę obrazu",
+                "C. Listę wszystkich wykrytych landmarków",
+                "D. Obiekt z wynikami modelu"
+            ],
+            "answer": "0cd20d37dbaa799d1d2f6f04adbab0b9e958b083f38e06512cdefadd20863f98"
+        },
+        {
+            "question": "W jakim zakresie są współrzędne landmarków zwracanych przez MediaPipe?",
+            "options": [
+                "A. Od 0 do 255",
+                "B. Od -1 do 1",
+                "C. Od 0 do 1",
+                "D. W pikselach, zależnie od rozdzielczości kamery"
+            ],
+            "answer": "08d1623c441b55a6989fce1086354967eb9f522e4cab47da49e9e1e640afbde6"
+        },
+        {
+            "question": "Które trzy punkty ciała używamy do obliczenia kąta kolana?",
+            "options": [
+                "A. Bark, łokieć, nadgarstek",
+                "B. Biodro, kolano, kostka",
+                "C. Biodro, kostka, stopa",
+                "D. Kolano, kostka, stopa"
+            ],
+            "answer": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2"
+        },
+        {
+            "question": "Co oznacza kąt kolana bliski 180 stopni?",
+            "options": [
+                "A. Osoba leży na podłodze",
+                "B. Osoba kuca głęboko",
+                "C. Model nie wykrył ciała",
+                "D. Osoba stoi wyprostowana"
+            ],
+            "answer": "ed35195ae02792a34387364493a4c766809f13a5d2b597830d70db652bd1afa4"
+        },
+        {
+            "question": "Po co sprawdzamy stage == \"down\" przed zwiększeniem licznika?",
+            "options": [
+                "A. Żeby licznik nie był ujemny",
+                "B. Żeby licznik rósł tylko raz na pełny cykl, nie co klatkę",
+                "C. Żeby program nie crashował przy braku wykrycia ciała",
+                "D. Żeby kąt był poprawnie obliczany"
+            ],
+            "answer": "f86ae46d947e2215ce53b1ae840af949b5f686e69ea2f6b7eaf3725619d4303e"
+        },
+        {
+            "question": "Co robi cv2.rectangle z ostatnim argumentem równym -1?",
+            "options": [
+                "A. Rysuje prostokąt bez wypełnienia",
+                "B. Usuwa prostokąt z obrazu",
+                "C. Rysuje wypełniony prostokąt",
+                "D. Ustawia grubość linii na 1 piksel"
+            ],
+            "answer": "f09d8479566a0c7cdb156fa8635e44990b471b4a641167201c79fed549ecd5f0"
+        },
+        {
+            "question": "Dlaczego na końcu programu wywołujemy cap.release()?",
+            "options": [
+                "A. Żeby zapisać nagranie na dysk",
+                "B. Żeby zamknąć okno z obrazem",
+                "C. Żeby zwolnić kamerę, bo inaczej zostanie zajęta",
+                "D. Żeby wyczyścić pamięć modelu MediaPipe"
+            ],
+            "answer": "2a36848a80644691f0e2f3c5b5fcb7871fe5b069108940563dfbfe9b50f78524"
+        },
+        {
+            "question": "Co się stanie, jeśli usuniemy warunek if results.pose_landmarks: przed rysowaniem szkieletu?",
+            "options": [
+                "A. Szkielet będzie rysowany szybciej",
+                "B. Model przestanie wykrywać ciało",
+                "C. Program zgłosi błąd, gdy model nie wykryje ciała w klatce",
+                "D. Kamera przestanie działać"
+            ],
+            "answer": "908d72900e2475921b580e971e603ef224f1995cdf47e3022d12ee88ae3e6e8a"
+        }
+    ]
+}

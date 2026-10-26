@@ -1,0 +1,48 @@
+
+# Python - cache i pliki tymczasowe
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Wirtualne środowisko
+.venv/
+venv/
+env/
+ENV/
+
+# Pliki konfiguracyjne i sekrety
+.env
+.env.*
+!.env.example
+
+# Pliki IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System operacyjny
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logi
+*.log
+logs/
+
+# Testy i narzędzia
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Budowanie aplikacji (PyInstaller)
+build/
+dist/
+*.spec
+
+# Pliki tymczasowe i kopie zapasowe
+*.tmp
+*.bak
+*~
